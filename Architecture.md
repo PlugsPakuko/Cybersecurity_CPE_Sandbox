@@ -4,7 +4,7 @@
 
 Source: `Architecture.drawio`. Exported 2026-10-21.
 
-The sandbox creates and manages per-student lab environments on Proxmox and exposes them to the LMS through one API. It has five layers plus an observability column. Purple boxes are services this project builds; white boxes are external systems or Proxmox resources; yellow boxes are observability.
+The sandbox creates and manages per-student lab environments on Proxmox and exposes them to the LMS through one API. It has five layers plus an observability column. Purple boxes are services this project builds; white boxes are external systems or Proxmox resources; yellow boxes are observability. The dashed box is owned by the LMS team but runs inside the sandbox's edge network. Green is the per-student VNet, red is the access network, and blue is the lab host VM.
 
 The sandbox serves two modes, both offline:
 
